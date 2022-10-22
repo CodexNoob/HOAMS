@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>HOA - Login</title>
+</head>
+<body bgcolor="#f9f9f9">
+    <header class="block block--white nav-container">
+        <nav class="container nav nav--center collapsible">
+            <a href="/index.html" class="block__heading nav__title">
+                <img class="icon nav__logo" src="/icons/logo.png" alt="">
+                HOAMS
+            </a>
+        </nav>
+    </header>
+    <section class="block block__form">
+        <form action="POST" class="login-form">
+            <h3 class="form__title">Register</h3>
+            <div class="input--group">
+                <label for="fullname" class="group__label input__label">Full Name</label>
+                <input class="group__input" type="text" id="fullname" required/>
+            </div>
+            <div class="input--group">
+                <label for="email" class="group__label input__label">Email</label>
+                <input class="group__input" type="text" id="email" required/>
+            </div>
+            <div class="input--group">
+                <label for="address" class="group__label input__label">Address</label>
+                <input class="group__input" type="text" id="address" required/>
+            </div>
+            <div class="input--group">
+                <label for="birth" class="group__label input__label">Birthdate</label>
+                <input class="group__input" type="date" id="birth" required/>
+            </div>
+            <div class="input--group">
+                <button type="submit" class="btn btn--primary btn--small form__btn">Register</button>
+            </div>
+            <div class="input-group content-center">
+                <label class="group__label color--dark">registered Already?&nbsp;</label>
+                <a href="login.html" class="form__link group__label">Log in</a>
+            </div>
+        </form>
+    </section>
+    <footer class="block block--dark footer">
+        <div class="input-group content-center">
+            <p class="group__label block__heading">Copyright Carl Jefferson Delfin 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
